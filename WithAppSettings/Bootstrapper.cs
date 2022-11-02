@@ -17,7 +17,7 @@ namespace WithAppSettings
         }
         protected override void OnStartup(object sender, StartupEventArgs e)
         {
-            DisplayRootViewFor<ShellViewModel>();
+            DisplayRootViewForAsync<ShellViewModel>();
         }
 
         private IConfiguration AddConfiguration()

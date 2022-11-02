@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaliburnMicroDotNet6", "CaliburnMicroDotNet6\CaliburnMicroDotNet6.csproj", "{6D9C9F27-52A2-4FDE-BD6A-2A73FB74AA8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithAppSettings", "WithAppSettings\WithAppSettings.csproj", "{5F7C2F71-F8C8-4520-B3FD-47CA5F178B3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithAppSettings", "WithAppSettings\WithAppSettings.csproj", "{5F7C2F71-F8C8-4520-B3FD-47CA5F178B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithLogging", "WithLogging\WithLogging.csproj", "{A28B9B79-C421-46F3-8613-334C12488646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5F7C2F71-F8C8-4520-B3FD-47CA5F178B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F7C2F71-F8C8-4520-B3FD-47CA5F178B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F7C2F71-F8C8-4520-B3FD-47CA5F178B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28B9B79-C421-46F3-8613-334C12488646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28B9B79-C421-46F3-8613-334C12488646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28B9B79-C421-46F3-8613-334C12488646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28B9B79-C421-46F3-8613-334C12488646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
