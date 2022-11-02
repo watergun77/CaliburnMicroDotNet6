@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Caliburn.Micro;
 
-namespace WithLogging.ViewModels
+namespace WithLogging.ViewModels;
+
+internal class ShellViewModel : Conductor<object>
 {
-    internal class ShellViewModel
-    {
+	private readonly ILog log = LogManager.GetLog(typeof(ShellViewModel));
+	public ShellViewModel()
+	{
+        log.Info("Start loading ShellViewModel");
     }
+
+	protected override void OnViewLoaded(object view)
+	{
+        log.Info("End of loading ShellViewModel");
+        base.OnViewLoaded(view);
+	}
 }
