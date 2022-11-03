@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaliburnMicroDotNet6", "Cal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithAppSettings", "WithAppSettings\WithAppSettings.csproj", "{5F7C2F71-F8C8-4520-B3FD-47CA5F178B3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithLogging", "WithLogging\WithLogging.csproj", "{A28B9B79-C421-46F3-8613-334C12488646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithLogging", "WithLogging\WithLogging.csproj", "{A28B9B79-C421-46F3-8613-334C12488646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithUITheme", "WithUITheme\WithUITheme.csproj", "{9E7B20EF-DF51-42CB-8395-002C0ADCAC04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A28B9B79-C421-46F3-8613-334C12488646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A28B9B79-C421-46F3-8613-334C12488646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A28B9B79-C421-46F3-8613-334C12488646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7B20EF-DF51-42CB-8395-002C0ADCAC04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7B20EF-DF51-42CB-8395-002C0ADCAC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7B20EF-DF51-42CB-8395-002C0ADCAC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7B20EF-DF51-42CB-8395-002C0ADCAC04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
